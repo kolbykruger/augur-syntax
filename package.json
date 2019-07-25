@@ -1,9 +1,9 @@
 {
-  "name": "template-syntax",
+  "name": "augur-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "private": false,
-  "description": "A template syntax theme to build from",
+  "description": "Augur sytax theme for the Atom text editor created by Kolby Kruger",
   "repository": "https://github.com/atom/template-syntax",
   "license": "MIT",
   "engines": {
