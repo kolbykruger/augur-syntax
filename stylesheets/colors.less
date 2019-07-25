@@ -1,0 +1,31 @@
+// active text
+@very-light-gray: #d5f2ff;
+
+// main text
+@light-gray: lighten(desaturate(@dark-gray, 10%), 30%);
+
+// disabled text
+@subtle-gray: lighten(desaturate(@dark-gray, 10%), 15%);
+
+// medium gray
+@gray: lighten(@dark-gray, 7%);
+
+// base gray
+@dark-gray: hsl(218,19%,14%);
+
+// dark base
+@very-dark-gray: #282a2e;
+
+@red: #F04180;
+@orange: #08bdf9;
+@light-orange: #4eefcd;
+@green: #4eefcd;
+@cyan: #23DEC5;
+@blue: #7AC3FF;
+@purple: #B57EED;
+
+//redundancy
+@background-color-info: @blue;
+@background-color-success: darken(@green, 22%);
+@background-color-warning: darken(@orange, 22%);
+@background-color-error: hsl(346,100%,50%);
